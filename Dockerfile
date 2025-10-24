@@ -1,4 +1,4 @@
-FROM node:25.0.0-trixie-slim
+FROM node:hydrogen-buster
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
